@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - AuthorizationServiceClientImplTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>AuthorizationServiceClientImplTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.webage.service.html">com.webage.service</a> &gt; AuthorizationServiceClientImplTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.263s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">getJwt()</td>
+<td class="success">2.263s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:45:08.955 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.webage.service.AuthorizationServiceClientImplTests]: AuthorizationServiceClientImplTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:45:09.063 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.webage.App for test class com.webage.service.AuthorizationServiceClientImplTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-19T16:45:09.456-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : Starting AuthorizationServiceClientImplTests using Java 17.0.5 with PID 30700 (started by kenkr in C:\Users\kenkr\Dropbox\WebAgeFullStack\wa3458-spring-boot\Ken\LabFiles\70c-spring-boot-security-client)
+2024-04-19T16:45:09.457-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-04-19T16:45:10.460-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : Started AuthorizationServiceClientImplTests in 1.24 seconds (process running for 2.393)
+2024-04-19T16:45:12.659-04:00  INFO 30700 --- [    Test worker] c.w.s.AuthorizationServiceClientImpl     : JSON Web Token returned from auth server is eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiY2xpZW50IiwiZXhwIjoxNzEzNTYzMTEyLCJpYXQiOjE3MTM1NTk1MTIsInNjb3BlIjoicmVhZCJ9.LRNV4qCTcdJpMHx2QB4fJi6ZvQFQfOU6iXorZ-t46azFQuq9XsDBuXGHbbwvObhnV4BqPJdMW1SJ7o0e8FWYqCZyJJJOLkzDj6FL9zejqSX88caJu2C58xP8EcN4Qizs8vMlVwRbVFKJo91NXdCe8Bx5CnvpDBNJqDrpAPIsYdhq3GaPpw6wqc0MmeNKfVMS41ezxId4fbp-JyfqG4k9NADNzNHE7Fv5RA3E1cZE_RiLQNZIyc-hLMTbL_JzYV4GioQ0NOW_Bh8TE7slkd6GYYqYzkSJx9SqbSLDBsbrNHaIJXpjPn4AfvvOEr_vSucM5P4ljGIQcxGqs1UGwvZSNg
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kenkr/.gradle/caches/modules-2/files-2.1/org.wiremock/wiremock-standalone/3.0.1/6b54f1bb43eb24530490348d26c1c3d5454af873/wiremock-standalone-3.0.1.jar!/wiremock/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.0</a> at Apr 19, 2024, 4:45:13 PM</p>
+</div>
+</div>
+</body>
+</html>

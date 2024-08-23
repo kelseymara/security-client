@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.webage.service.AuthorizationServiceClientImplTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-19T20:45:10" hostname="KENSSURFACEPRO8" time="2.263">
+  <properties/>
+  <testcase name="getJwt()" classname="com.webage.service.AuthorizationServiceClientImplTests" time="2.263"/>
+  <system-out><![CDATA[16:45:08.955 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.webage.service.AuthorizationServiceClientImplTests]: AuthorizationServiceClientImplTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:45:09.063 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.webage.App for test class com.webage.service.AuthorizationServiceClientImplTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-19T16:45:09.456-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : Starting AuthorizationServiceClientImplTests using Java 17.0.5 with PID 30700 (started by kenkr in C:\Users\kenkr\Dropbox\WebAgeFullStack\wa3458-spring-boot\Ken\LabFiles\70c-spring-boot-security-client)
+2024-04-19T16:45:09.457-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : No active profile set, falling back to 1 default profile: "default"
+2024-04-19T16:45:10.460-04:00  INFO 30700 --- [    Test worker] .w.s.AuthorizationServiceClientImplTests : Started AuthorizationServiceClientImplTests in 1.24 seconds (process running for 2.393)
+2024-04-19T16:45:12.659-04:00  INFO 30700 --- [    Test worker] c.w.s.AuthorizationServiceClientImpl     : JSON Web Token returned from auth server is eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiY2xpZW50IiwiZXhwIjoxNzEzNTYzMTEyLCJpYXQiOjE3MTM1NTk1MTIsInNjb3BlIjoicmVhZCJ9.LRNV4qCTcdJpMHx2QB4fJi6ZvQFQfOU6iXorZ-t46azFQuq9XsDBuXGHbbwvObhnV4BqPJdMW1SJ7o0e8FWYqCZyJJJOLkzDj6FL9zejqSX88caJu2C58xP8EcN4Qizs8vMlVwRbVFKJo91NXdCe8Bx5CnvpDBNJqDrpAPIsYdhq3GaPpw6wqc0MmeNKfVMS41ezxId4fbp-JyfqG4k9NADNzNHE7Fv5RA3E1cZE_RiLQNZIyc-hLMTbL_JzYV4GioQ0NOW_Bh8TE7slkd6GYYqYzkSJx9SqbSLDBsbrNHaIJXpjPn4AfvvOEr_vSucM5P4ljGIQcxGqs1UGwvZSNg
+]]></system-out>
+  <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/kenkr/.gradle/caches/modules-2/files-2.1/org.wiremock/wiremock-standalone/3.0.1/6b54f1bb43eb24530490348d26c1c3d5454af873/wiremock-standalone-3.0.1.jar!/wiremock/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+]]></system-err>
+</testsuite>
